@@ -24,7 +24,7 @@ public class RegisterError extends HttpServlet {
         out.println("<title>表單填寫錯誤</title>");
         out.println("</head>");
         out.println("<body>");
-        out.println("<h1>表單填寫錯誤</h1>");
+        out.println("<h1>表單填寫錯誤!</h1>");
         out.println("<ul style='color: rgb(255, 0, 0);'>");
         
         List<String> errors = (List<String>) request.getAttribute("errors");
